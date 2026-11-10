@@ -1,0 +1,134 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: 'Lora', Georgia;
+  line-height: 1.5;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  position: fixed;
+  z-index: 4;
+  background-color: #d35400;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+main {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+#sellou {
+  margin-top: 140px;
+  text-align: center;
+}
+
+#sellou h1 {
+  color: #d35400;
+  margin: 0px;
+}
+
+#sellou img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+#sellou img:hover {
+  transform: scale(1.1);
+}
+#Ingredients {
+  background-color: yellow;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+#Ingredients ul {
+  list-style: none;
+}
+#Ingredients ul li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+#Ingredients ul li::before {
+  content: " 🌼";
+  margin-right: 5px;
+}
+#preparation {
+    margin-top: 40px;
+}
+
+#preparation ol {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#preparation ol li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#preparation ol li::before {
+    content: "👩‍🍳";
+    margin-right: 5px;
+}
+iframe {
+    display: block;
+    border: #a88181 2px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, brown,black);
+    margin: 20px auto;
+}
